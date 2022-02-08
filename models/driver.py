@@ -4,3 +4,6 @@ class Driver:
 
         self.name = name
         self.number = number
+
+    def changeNumber(self, newNumber: int):
+        self.number = newNumber

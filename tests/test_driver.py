@@ -13,6 +13,6 @@ def test_driver_change_number():
 
     assert alonso.number == 14
 
-    alonso.setNumber(1)
+    alonso.changeNumber(1)
 
     assert alonso.number == 1
